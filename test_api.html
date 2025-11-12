@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management API Tester</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    button { margin: 5px; padding: 8px 12px; }
+    pre { background: #f4f4f4; padding: 10px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h2>Student Management API Test Console</h2>
+  <button onclick="getStudents()">GET /students</button>
+  <button onclick="getCourses()">GET /courses</button>
+  <button onclick="getEnrollments()">GET /enrollments</button>
+  <button onclick="postStudent()">POST /students</button>
+  <pre id="output"></pre>
+
+  <script>
+    const BASE_URL = "http://localhost:8080";
+    const output = document.getElementById("output");
+
+    function show(data) {
+      output.textContent = JSON.stringify(data, null, 2);
+    }
+
+    async function getStudents() {
+      const res = await fetch(`${BASE_URL}/students`);
+      show(await res.json());
+    }
+
+    async function getCourses() {
+      const res = await fetch(`${BASE_URL}/courses`);
+      show(await res.json());
+    }
+
+    async function getEnrollments() {
+      const res = await fetch(`${BASE_URL}/enrollments`);
+      show(await res.json());
+    }
+
+    async function postStudent() {
+      const res = await fetch(`${BASE_URL}/students`, {
+        method: "POST",
+        headers: {
+          "Authorization": "Bearer 12345",
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          name: "Browser Student",
+          email: "browser@nku.edu",
+          major: "Software Engineering"
+        })
+      });
+      show(await res.json());
+    }
+  </script>
+</body>
+</html>
