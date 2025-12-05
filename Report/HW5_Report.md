@@ -1,24 +1,16 @@
----
-marp: true
-paginate: true
-theme: default
-title: "HW5 — Quality Software Documentation Report"
-author: "Nadine Karabaranga"
----
-
 # **HW5 — Quality Software Documentation Report**
 ### CSC 640 — Software Quality  
 ### Author: Nadine Karabaranga  
 ### Instructor: Dr. Samuel Cho  
 
----
+
 
 # **Week 1 — Foundations of Quality Software**
 
 ## 1. Introduction  
 Week 1 introduced the foundational concepts of quality software engineering. The lectures emphasized that building high-quality software requires more than functionality; it requires reliability, maintainability, predictability, and clear communication. These principles form the basis for professional software development.
 
----
+
 
 ## 2. Understanding Quality Software  
 Quality software includes the following characteristics:
@@ -30,7 +22,6 @@ Quality software includes the following characteristics:
 
 Building maintainable software is ultimately building for the future.
 
----
 
 ## 3. Managing Complexity  
 Professional software engineers manage complexity using:
@@ -43,7 +34,7 @@ Professional software engineers manage complexity using:
 
 Effective complexity management reduces errors, improves clarity, and enhances performance.
 
----
+
 
 ## 4. The “No Surprises” Principle  
 The *No Surprises* rule encourages transparent collaboration:
@@ -55,7 +46,7 @@ The *No Surprises* rule encourages transparent collaboration:
 
 This principle strengthens trust and maintains alignment.
 
----
+
 
 ## 5. The ASE Framework  
 The ASE 4-D Cycle includes:
@@ -67,7 +58,7 @@ The ASE 4-D Cycle includes:
 
 This framework enhances traceability and quality.
 
----
+
 
 ## 6. Tools Supporting Week 1  
 | Category | Tools | Purpose |
@@ -77,24 +68,22 @@ This framework enhances traceability and quality.
 | Testing | Postman, PHPUnit | Validate correctness |
 | Documentation | Markdown, Marp | Communicate design and results |
 
----
 
 ## 7. Reflection  
 Week 1 reinforced that software quality relies on communication, structure, and consistency. The tools and principles introduced became essential for HW4 and subsequent weeks.
 
----
+
 
 ## 8. Conclusion  
 High-quality software emerges from strong foundations—manageable complexity, clear planning, and collaboration. Week 1 set the standard for all following coursework.
 
----
 
 # **Week 2 — Software Process and Development Models**
 
 ## 1. Introduction  
 Week 2 examined why a structured software process is crucial for building predictable and maintainable systems. A formal process guides design, implementation, and evaluation across the development lifecycle.
 
----
+
 
 ## 2. Importance of Process  
 A clear process provides:
@@ -107,7 +96,7 @@ A clear process provides:
 
 Without process, projects drift and become unstable.
 
----
+
 
 ## 3. Classical Software Development Models  
 
@@ -123,7 +112,7 @@ Without process, projects drift and become unstable.
 - Short development cycles (sprints)  
 - Strong emphasis on adaptability and feedback  
 
----
+
 
 ## 4. Tools Supporting Process  
 - Version control via GitHub  
@@ -133,7 +122,7 @@ Without process, projects drift and become unstable.
 
 These reinforce discipline and structure.
 
----
+
 
 ## 5. HW4 Application  
 HW4 followed a structured development process:
@@ -146,19 +135,19 @@ HW4 followed a structured development process:
 
 This ensured controlled progress and steady improvement.
 
----
+
 
 ## 6. Reflection  
 Week 2 highlighted how process prevents miscommunication, reduces rework, and improves quality. A strong workflow is foundational for real-world engineering.
 
----
+
 
 # **Week 3 — Software Design, OOP, UML**
 
 ## 1. Introduction  
 Week 3 focused on software design as a mechanism for controlling complexity. Strong design leads to systems that scale and adapt without breaking.
 
----
+
 
 ## 2. OOP Principles  
 - **Abstraction** — exposes essential details only  
@@ -168,7 +157,7 @@ Week 3 focused on software design as a mechanism for controlling complexity. Str
 
 These principles ensure cleaner, more organized code.
 
----
+
 
 ## 3. APIEC Model  
 The APIEC model combines:
@@ -181,7 +170,6 @@ The APIEC model combines:
 
 APIEC helps avoid code duplication and supports modular architecture.
 
----
 
 ## 4. UML for Design  
 UML diagrams reduce ambiguity and guide implementation:
@@ -190,7 +178,7 @@ UML diagrams reduce ambiguity and guide implementation:
 - **Class** diagrams show structure  
 - **Sequence** diagrams model message flow  
 
----
+
 
 ## 5. HW4 Application  
 UML modeling supported:
@@ -200,19 +188,17 @@ UML modeling supported:
 - Designing authentication flow  
 - Reducing misinterpretations during implementation  
 
----
+
 
 ## 6. Reflection  
 Week 3 emphasized that design is essential—not optional. High-quality software is planned before it is coded.
 
----
+
 
 # **Week 4 — SOLID Principles, Testing, and Clean Architecture**
 
 ## 1. Introduction  
 Week 4 expanded on design by introducing principles used to build scalable, maintainable, and testable systems.
-
----
 
 ## 2. SOLID Principles  
 
@@ -224,7 +210,7 @@ Week 4 expanded on design by introducing principles used to build scalable, main
 
 These principles reduce coupling and enhance flexibility.
 
----
+
 
 ## 3. Testing  
 Testing ensures stability and confidence:
@@ -236,12 +222,12 @@ Testing ensures stability and confidence:
 
 Testing also prevents defects from spreading across the system.
 
----
+
 
 ## 4. Composition Over Inheritance  
 Composition is preferred because it avoids rigid hierarchies and encourages modular, evolvable systems.
 
----
+
 
 ## 5. HW4 Application  
 HW4 demonstrated SOLID and architectural best practices:
@@ -251,19 +237,18 @@ HW4 demonstrated SOLID and architectural best practices:
 - OCP through extendable endpoints  
 - Postman used for consistent test cycles  
 
----
 
 ## 6. Reflection  
 Week 4 showed that disciplined architecture ensures long-term code quality and adaptability.
 
----
+
 
 # **Week 5 — High-Level Programming with JavaScript**
 
 ## 1. Introduction  
 Week 5 explored how JavaScript, a high-level language, reduces complexity and accelerates development through abstraction.
 
----
+
 
 ## 2. High-Level Abstraction  
 JavaScript eliminates many low-level concerns:
@@ -275,7 +260,6 @@ JavaScript eliminates many low-level concerns:
 
 This allows developers to focus on solving actual problems.
 
----
 ## 3. JavaScript for Web Applications  
 JavaScript is ideal for web systems because:
 
@@ -284,12 +268,12 @@ JavaScript is ideal for web systems because:
 - Async features improve responsiveness  
 - NPM provides reusable packages  
 
----
+
 
 ## 4. Dynamic Typing  
 JavaScript’s dynamic typing enables creativity but increases the risk of runtime errors, motivating the transition to TypeScript.
 
----
+
 
 ## 5. HW4 Application  
 JavaScript supported HW4 by:
@@ -299,19 +283,19 @@ JavaScript supported HW4 by:
 - Debugging with console tools  
 - Rapid prototyping  
 
----
+
 
 ## 6. Reflection  
 Week 5 demonstrated that high-level languages increase developer efficiency and reduce accidental complexity.
 
----
+
 
 # **Week 6 — TypeScript and React**
 
 ## 1. Introduction  
 Week 6 covered TypeScript and React, both essential for building modern, robust web applications.
 
----
+
 
 ## 2. TypeScript and Static Typing  
 TypeScript introduces:
@@ -323,7 +307,6 @@ TypeScript introduces:
 
 This significantly reduces runtime failures.
 
----
 
 ## 3. React and Component Architecture  
 React provides structure through:
@@ -333,7 +316,7 @@ React provides structure through:
 - Virtual DOM optimization  
 - Clear separation of UI and logic  
 
----
+
 
 ## 4. TypeScript + React  
 Together they deliver:
@@ -343,7 +326,7 @@ Together they deliver:
 - Fewer undefined/null errors  
 - Scalable front-end architecture  
 
----
+
 
 ## 5. HW4 Application  
 If applied to HW4:
@@ -352,12 +335,11 @@ If applied to HW4:
 - React would render forms, lists, dashboards  
 - Strong typing would catch data mismatches early  
 
----
 
 ## 6. Reflection  
 Week 6 showed that modern tools make quality easier by enforcing structure and reducing uncertainty.
 
----
+
 
 # **Overall Reflection**
 
@@ -372,11 +354,10 @@ Across Weeks 1–6, quality software emerged as the result of:
 
 HW4 served as a practical application of these principles.
 
----
+
 
 # **Conclusion**
 
 Quality software is intentional.  
 It results from thoughtful planning, strong communication, clean design, modern tooling, and disciplined engineering practices.  
 These lessons will guide future academic and professional development.
-
